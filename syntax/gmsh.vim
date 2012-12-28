@@ -54,7 +54,8 @@ syntax match	gmshCommentError	display "\*/"
 syntax match	gmshCommentStartError display "/\*"me=e-1 contained
 "
 " Keywords
-syn keyword gmshKeyword newreg newp Acos ArcCos Asin ArcSin Atan ArcTan
+syn keyword gmshKeyword newreg newp newc news newf newv
+syn keyword gmshKeyword Acos ArcCos Asin ArcSin Atan ArcTan
 syn keyword gmshKeyword Atan2 ArcTan2 Attractor Bump BSpline Bounds Ceil
 syn keyword gmshKeyword Cosh Cos Characteristic Circle Coherence Complex
 syn keyword gmshKeyword Color ColorTable CatmullRom Call Delete Dilate
