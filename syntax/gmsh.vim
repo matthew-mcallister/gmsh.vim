@@ -2,18 +2,8 @@
 " Language:	gmsh
 " Maintainer:	CHAMPANEY Laurent laurent.champaney@meca.uvsq.fr
 " Location:     http://www.lema.uvsq.fr/champaney/outils/gmsh.vim
-" Last change:	Wed May 14 21:27:58 2003
+" Last change:	June 29, 2015
 "
-" Installation :
-" Add this file in ~/.vim/syntax/
-"
-" Add the following lines in your .vim/filetype.vim
-" 	augroup filetypedetect
-"	au! BufRead,BufNewFile *.geo		setfiletype gmsh
-"	augroup END
-"
-" Add the following comment at the end of your other gmsh files
-" // vim: set filetype=gmsh :  //
 
 " Remove any old syntax stuff hanging around
 set tabstop=2
